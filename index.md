@@ -1,37 +1,115 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/codyonly/OttoVonHorburg.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<html data-wf-page="5aa72055900db2422fa27355" data-wf-site="5aa72055900db2ba27a27354">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+    <meta charset="utf-8">
+    <title>Candidature | Akuma</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Webflow" name="generator">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/book-project-css.webflow.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        WebFont.load({
+            google: {
+                families: ["PT Sans:400,400italic,700,700italic"]
+            }
+        });
+    </script>
+    <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
+    <script type="text/javascript">
+        ! function(o, c) {
+            var n = c.documentElement,
+                t = " w-mod-";
+            n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+        }(window, document);
+    </script>
+    <link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+</head>
 
-### Markdown
+<body>
+    <script src="public/js/transition_page.js"></script>
+    <div class="scene">
+        <div class="book-wrap">
+            <div class="left-side">
+                <div class="book-cover-left"></div>
+                <div class="layer1">
+                    <div class="page-left"></div>
+                </div>
+                <div class="layer2">
+                    <div class="page-left"></div>
+                </div>
+                <div class="layer3">
+                    <div class="page-left"></div>
+                </div>
+                <div class="layer4">
+                    <div class="page-left"></div>
+                </div>
+                <div class="layer-text">
+                    <div class="page-left-2">
+                        <div class="corner"></div>
+                        <div class="corner2"></div>
+                        <div class="corner-fold"></div>
+                        <div id="page1" class="page-text w-richtext">
+                            <h3><strong>Konrad Gessner</strong></h3>
+                            <img src="public/img/Apparence.jpg" style="width: auto;height: 75%;" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center"></div>
+            <div class="right-side">
+                <div class="book-cover-right"></div>
+                <div class="layer1">
+                    <div class="page-right"></div>
+                </div>
+                <div class="layer2 right">
+                    <div class="page-right"></div>
+                </div>
+                <div class="layer3 right">
+                    <div class="page-right"></div>
+                </div>
+                <div class="layer4 right">
+                    <div class="page-right"></div>
+                </div>
+                <div class="layer-text right">
+                    <div class="page-right-2">
+                        <div id="page2" class="page-text w-richtext">
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+                            <h1>Identité</h1>
+                            <br>
+                            <br>
+                            <p>Nom: Gessner</p>
+                            <p>Prenom: Konrad</p>
+                            <br>
+                            <p>Lieux de Naissance: Shiganshina</p>
+                            <p>Date de Naissance: 13 Avril XXX</p>
+                            <p>Age: 21 ans</p>
+                            <br>
+                            <br>
+                            <p>Numéro D'identité: 4929 1049 6131 4085</p>
+                            <p>Nombre de frère et soeurs: Fils Unique Orphelin</p>
+                            <br>
+                            <br>
+                            <p>Lieux de Résidence: Trost</p>
+                            <p>Evenement Notable:</p>
+                            <dd> - Il a réussi a survivre de Shiganshina</dd>
+                            <dd> - C'est le seul survivant de sa famille</dd>
+                            <img style="width: auto; height: 30%;" src="public/img/Tampon-BS.jpg" alt="">
+                            <div class="flex-box">
+                                <button onclick="PageSuivante(2)">Page Suivante</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" intergrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/webflow.js" type="text/javascript"></script>
+    <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/codyonly/OttoVonHorburg.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
